@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:200");
+:root {
+  --bg: #B0D7FF;
+  --shadow: rgba(88,107,127,0.25);
+  --highlite: rgba(243,167,18,0.3);
+  --gray: #efefef;
+  --black: #2D3142;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Roboto;
+  font-size: 1em;
+  color: var(--black);
+  background: var(--bg);
+}
+
+.type-ahead {
+  width: 75%;
+  max-width: 720px;
+  margin: 1.5em auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.type-ahead .search-form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.type-ahead .search-form .search {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  outline: 0;
+  font-family: Roboto;
+  font-size: 1.5em;
+  padding: 1em;
+  margin-bottom: 0.5em;
+  border: 0;
+  border-radius: 0.2em;
+  background: var(--gray);
+  -webkit-box-shadow: 0 5px 5px var(--shadow);
+          box-shadow: 0 5px 5px var(--shadow);
+}
+.type-ahead .search-form .search::-webkit-input-placeholder {
+  opacity: 0.6;
+}
+.type-ahead .search-form .search:-ms-input-placeholder {
+  opacity: 0.6;
+}
+.type-ahead .search-form .search::-ms-input-placeholder {
+  opacity: 0.6;
+}
+.type-ahead .search-form .search::placeholder {
+  opacity: 0.6;
+}
+.type-ahead .suggestions {
+  list-style-type: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0;
+  padding: 0;
+}
+.type-ahead .suggestions li {
+  padding: 1em;
+  margin: 1px 1em;
+  background: var(--gray);
+  -webkit-box-shadow: 0 0 5px var(--shadow);
+          box-shadow: 0 0 5px var(--shadow);
+  text-transform: Capitalize;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.type-ahead .suggestions li .hl {
+  background: var(--highlite);
+}
+.type-ahead .suggestions li .population {
+  font-size: 0.85em;
+}
