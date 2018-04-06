@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+:root {
+  --black: #424b54;
+  --black-8: rgba(0, 0, 0, 0.8);
+  --black-6: rgba(0, 0, 0, 0.6);
+  --white: #f3efe0;
+  --white-1: rgba(255, 255, 255, 0.1);
+  --grey: #475b5a;
+  /* panel colors */
+  --color-panel1: #87bcde;
+  --color-panel2: #805e73;
+  --color-panel3: #4e4d5c;
+  --color-panel4: #2d4654;
+  --color-panel5: #243b4a;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--black);
+  font-family: Roboto;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+}
+
+.panels {
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+.panels .panel {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: inset 0 0 0 5px var(--white-1);
+  background: var(--grey);
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+  text-align: center;
+  font-size: 1.5em;
+  transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s;
+}
+.panels .panel.open-active > *:first-child, .panels .panel.open-active > *:last-child {
+  transform: translateY(0);
+}
+.panels .panel > * {
+  margin: 0;
+  width: 100%;
+  transition: transform 0.5s;
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+.panels .panel > *:first-child {
+  transform: translateY(-100%);
+}
+.panels .panel > *:last-child {
+  transform: translateY(100%);
+}
+.panels .panel p {
+  text-transform: uppercase;
+  text-shadow: 0 0 4px var(--black-8), 0 0 14px var(--black-6);
+  font-family: "Amatic SC", cursive;
+  font-size: 2em;
+}
+.panels .panel.panel1 {
+  background: var(--color-panel1);
+}
+.panels .panel.panel2 {
+  background: var(--color-panel2);
+}
+.panels .panel.panel3 {
+  background: var(--color-panel3);
+}
+.panels .panel.panel4 {
+  background: var(--color-panel4);
+}
+.panels .panel.panel5 {
+  background: var(--color-panel5);
+}
+.panels .panel p:nth-child(2) {
+  font-size: 4em;
+}
+.panels .panel.open {
+  flex: 5;
+  font-size: 2.5em;
+}
