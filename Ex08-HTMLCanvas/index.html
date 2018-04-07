@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML Canvas</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+  <section class="controls">
+    <label for="width-control" class="controlLabel">Line Width</label>
+    <input id="width-control" type="range" class="controlInput" min="1" max="50" value="10">
+    <label for="color-control" class="controlLabel">Color</label>
+    <input id="color-control" type="color" class="controlInput">
+    
+  </section>
+
+  <canvas id="draw" width="600" height="600"></canvas>
+  <script src="scripts.js" type="text/javascript"></script>
+</body>
+</html>
