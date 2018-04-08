@@ -12,3 +12,5 @@ Day 6: [Type Ahead](https://codepen.io/kartikadur/pen/rdqoyx)
 Day 7 : [Array Cardio Day 2](https://repl.it/@kartikadur/RuddyScentedEquations)
 
 Day 8 : [HTML Canvas](https://codepen.io/kartikadur/pen/OvamGN)
+
+Day 10 : [Shift Click Multiple Checkboxes](https://codepen.io/kartikadur/pen/dmQrrM)
