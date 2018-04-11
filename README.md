@@ -16,3 +16,5 @@ Day 8 : [HTML Canvas](https://codepen.io/kartikadur/pen/OvamGN)
 Day 10 : [Shift Click Multiple Checkboxes](https://codepen.io/kartikadur/pen/dmQrrM)
 
 Day 11 : [Custom Video Player Interface](https://codepen.io/kartikadur/pen/qoLpJR)
+
+Day 12 : [Key Sequence Detection](https://codepen.io/kartikadur/pen/KoJqLQ)
