@@ -18,3 +18,7 @@ Day 10 : [Shift Click Multiple Checkboxes](https://codepen.io/kartikadur/pen/dmQ
 Day 11 : [Custom Video Player Interface](https://codepen.io/kartikadur/pen/qoLpJR)
 
 Day 12 : [Key Sequence Detection](https://codepen.io/kartikadur/pen/KoJqLQ)
+
+Day 14 : [Reference vs Copy](https://repl.it/@kartikadur/DownrightThinRar)
+
+Day 15 : [LocalStorage + EventDelegation](https://codepen.io/kartikadur/pen/EEJLye)
