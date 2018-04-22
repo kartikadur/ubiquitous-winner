@@ -3,6 +3,8 @@
 
 [JavaScript 30 days collection](https://codepen.io/collection/XdvNLQ/)
 
+Day 2 : [Analog Clock](https://codepen.io/kartikadur/pen/MGaEpg)
+
 Day 4 : [Array Cardio Day 1](https://repl.it/@kartikadur/VelvetyExcitedPerl)
 
 Day 5 : [Flex Panel Gallery](https://codepen.io/kartikadur/pen/ZxqzYJ)
@@ -19,8 +21,14 @@ Day 11 : [Custom Video Player Interface](https://codepen.io/kartikadur/pen/qoLpJ
 
 Day 12 : [Key Sequence Detection](https://codepen.io/kartikadur/pen/KoJqLQ)
 
+Day 13 : [Slidein Scroll](https://codepen.io/kartikadur/pen/qowxRZ)
+
 Day 14 : [Reference vs Copy](https://repl.it/@kartikadur/DownrightThinRar)
 
 Day 15 : [LocalStorage + EventDelegation](https://codepen.io/kartikadur/pen/EEJLye)
 
 Day 16 : [Mousemove Textshadow](https://codepen.io/kartikadur/pen/VXJjPM)
+
+Day 17 : [Sort without Articles](https://repl.it/@kartikadur/ImprobableMiserableOutlier)
+
+Day 18 : [Adding with Reduce](https://repl.it/@kartikadur/ScientificElderlyAssociate)
