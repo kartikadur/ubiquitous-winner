@@ -1,9 +1,13 @@
-# ubiquitous-winner
-[JavaScript 30 days challenge](https://github.com/wesbos/JavaScript30)
+# JavaScript30
+ Based on Wes Bos' [JavaScript 30 days challenge](https://github.com/wesbos/JavaScript30)
 
 [JavaScript 30 days collection](https://codepen.io/collection/XdvNLQ/)
 
+Day 1 : [Drum Kit]
+
 Day 2 : [Analog Clock](https://codepen.io/kartikadur/pen/MGaEpg)
+
+Day 3 : [CSS Variables]
 
 Day 4 : [Array Cardio Day 1](https://repl.it/@kartikadur/VelvetyExcitedPerl)
 
@@ -14,6 +18,8 @@ Day 6: [Type Ahead](https://codepen.io/kartikadur/pen/rdqoyx)
 Day 7 : [Array Cardio Day 2](https://repl.it/@kartikadur/RuddyScentedEquations)
 
 Day 8 : [HTML Canvas](https://codepen.io/kartikadur/pen/OvamGN)
+
+Day 9 : [Dev Tools]
 
 Day 10 : [Shift Click Multiple Checkboxes](https://codepen.io/kartikadur/pen/dmQrrM)
 
@@ -33,4 +39,26 @@ Day 17 : [Sort without Articles](https://repl.it/@kartikadur/ImprobableMiserable
 
 Day 18 : [Adding with Reduce](https://repl.it/@kartikadur/ScientificElderlyAssociate)
 
+Day 19 : [Webcam API]
+
+Day 20 : [Speech Recognition API]
+
+Day 21 : [Geolocation API]
+
 Day 22 : [Follow Along Link Highlighter](https://codepen.io/kartikadur/pen/PeZPbg)
+
+Day 23 : [Speech Synthesis API]
+
+Day 24 : [Sticky Navigation]
+
+Day 25 : [Event Handling II]
+
+Day 26 : [Follow Along Navigation Dropdown]
+
+Day 27 : [Click And Drag]
+
+Day 28 : [Video Speed Controller]
+
+Day 29 : [Countdown Timer]
+
+Day 30 : [Whack A Mole]
