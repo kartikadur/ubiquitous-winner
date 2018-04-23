@@ -32,3 +32,5 @@ Day 16 : [Mousemove Textshadow](https://codepen.io/kartikadur/pen/VXJjPM)
 Day 17 : [Sort without Articles](https://repl.it/@kartikadur/ImprobableMiserableOutlier)
 
 Day 18 : [Adding with Reduce](https://repl.it/@kartikadur/ScientificElderlyAssociate)
+
+Day 22 : [Follow Along Link Highlighter](https://codepen.io/kartikadur/pen/PeZPbg)
