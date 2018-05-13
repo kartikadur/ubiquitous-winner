@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:700");
+:root {
+  --bg: #8BAAAD;
+  --bg-brand: #E8E8E8;
+  --bg-nav: #352D30;
+  --font-header: #F4FFF8;
+  --font: #03120E;
+  --shadow: #352D30;
+  --shadow-05: rgba(53, 45, 48, 0.05);
+  --shadow-50: rgba(53, 45, 48, 0.5);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  background: var(--bg);
+  color: var(--font);
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  height: 50vh;
+  background: url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) bottom center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__title {
+  font-family: 'Merriweather', s ans-serif;
+  font-weight: 700;
+  flex: 1;
+  padding: 0.5em;
+  color: var(--font-header);
+  background: linear-gradient(to right, var(--shadow-05), var(--shadow-50), var(--shadow-05));
+  text-shadow: 0 3px 0 var(--shadow-50);
+}
+
+.nav {
+  background: var(--bg-nav);
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 0 8px var(--shadow-50), 0 0 3px var(--shadow-05);
+  transition: all 0.5s;
+}
+.nav--fixed .nav {
+  position: fixed;
+}
+.nav--fixed .nav__logo {
+  max-width: 10em;
+}
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.nav__item {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+.nav__logo {
+  max-width: 0;
+  overflow: hidden;
+  font-weight: 700;
+  background: var(--bg-brand);
+  transition: all 0.5s;
+}
+.nav__link {
+  text-decoration: none;
+  padding: 1.4em;
+  display: inline-block;
+  text-transform: uppercase;
+  color: var(--font-header);
+  transition: all 0.2s;
+}
+.nav__logo .nav__link {
+  color: var(--font);
+}
+
+.container {
+  max-width: 700px;
+  margin: 70px auto;
+  padding: 40px;
+  text-align: justify;
+  background: var(--bg-brand);
+  box-shadow: 0 0 8px var(--shadow-50), 0 0 3px var(--shadow-20);
+  transition: all 0.5s;
+}
+.container__text {
+  font-size: 1em;
+  padding: 0 0 0.75em 0;
+  line-height: 1.4em;
+}

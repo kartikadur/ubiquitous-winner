@@ -49,7 +49,7 @@ Day 22 : [Follow Along Link Highlighter](https://codepen.io/kartikadur/pen/PeZPb
 
 Day 23 : [Speech Synthesis API]
 
-Day 24 : [Sticky Navigation]
+Day 24 : [Sticky Navigation](https://codepen.io/kartikadur/pen/xjVOmY)
 
 Day 25 : [Event Handling II]
 
