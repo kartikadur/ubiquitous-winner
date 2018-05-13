@@ -53,7 +53,7 @@ Day 24 : [Sticky Navigation]
 
 Day 25 : [Event Handling II]
 
-Day 26 : [Follow Along Navigation Dropdown]
+Day 26 : [Follow Along Navigation Dropdown](https://codepen.io/kartikadur/pen/MGGeyQ)
 
 Day 27 : [Click And Drag]
 
