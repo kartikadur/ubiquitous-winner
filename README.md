@@ -59,6 +59,6 @@ Day 27 : [Click And Drag](https://codepen.io/kartikadur/pen/qYvYNq)
 
 Day 28 : [Video Speed Controller]
 
-Day 29 : [Countdown Timer]
+Day 29 : [Countdown Timer](https://codepen.io/kartikadur/pen/derjyx)
 
 Day 30 : [Whack A Mole]
