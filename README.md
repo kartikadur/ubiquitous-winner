@@ -7,7 +7,7 @@ Day 1 : [Drum Kit]
 
 Day 2 : [Analog Clock](https://codepen.io/kartikadur/pen/MGaEpg)
 
-Day 3 : [CSS Variables]
+Day 3 : [CSS Variables](https://codepen.io/kartikadur/pen/wOWwpP)
 
 Day 4 : [Array Cardio Day 1](https://repl.it/@kartikadur/VelvetyExcitedPerl)
 
