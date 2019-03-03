@@ -39,9 +39,9 @@ Day 17 : [Sort without Articles](https://repl.it/@kartikadur/ImprobableMiserable
 
 Day 18 : [Adding with Reduce](https://repl.it/@kartikadur/ScientificElderlyAssociate)
 
-Day 19 : [Webcam API]
+Day 19 : [Webcam API](https://codepen.io/kartikadur/pen/yjYzPL)
 
-Day 20 : [Speech Recognition API]
+Day 20 : [Speech Recognition API](https://codepen.io/kartikadur/pen/vjNeWd)
 
 Day 21 : [Geolocation API]
 
@@ -55,7 +55,7 @@ Day 25 : [Event Handling II]
 
 Day 26 : [Follow Along Navigation Dropdown](https://codepen.io/kartikadur/pen/MGGeyQ)
 
-Day 27 : [Click And Drag]
+Day 27 : [Click And Drag](https://codepen.io/kartikadur/pen/qYvYNq)
 
 Day 28 : [Video Speed Controller]
 
